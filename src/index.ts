@@ -1,0 +1,5 @@
+import './styles/editor.scss'
+export { default as ReactFreeEditor } from './components/ReactFreeEditor'
+export { createCustomBlockExtension } from './extensions/CustomBlock'
+export { Video } from './extensions/Video'
+export type { ReactFreeEditorProps, EditorMode, CustomBlockItem, ToolbarProps } from './types'
