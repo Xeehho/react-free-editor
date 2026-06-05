@@ -33,4 +33,6 @@ export interface ToolbarProps {
   onModeChange: (mode: EditorMode) => void
   uploadProps?: UploadProps
   customBlocks?: CustomBlockItem[]
+  showPreview: boolean
+  onPreviewToggle: () => void
 }
