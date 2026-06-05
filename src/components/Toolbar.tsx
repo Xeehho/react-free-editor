@@ -87,6 +87,7 @@ export default function Toolbar({ editor, mode, onModeChange, uploadProps, custo
     setLinkUrl('')
   }
 
+  // 测试1
   return (
     <div className="react-free-editor-toolbar">
       {!isMarkdown && (
